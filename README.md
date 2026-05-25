@@ -23,11 +23,13 @@ The HMDB_simp dataset used a 70/15/15 stratified split:
 - 188 test clips
 
 ## Models Compared
-| Model | Frames | Notes |
-|---|---:|---|
-| TimeSFormer | 8 | Divided space-time attention |
-| VideoMAE | 16 | Masked autoencoder pre-training |
-| ViViT | 32 | Factorised spatial and temporal encoders |
+
+| Model | Frames | Top-1 | Top-5 | Macro F1 |
+|---|---:|---:|---:|---:|
+| TimeSFormer | 8 | 88.30% | 97.97% | 0.8786 |
+| VideoMAE | 16 | 93.62% | 97.87% | 0.9339 |
+| ViViT | 32 | 78.19% | 94.68% | 0.7793 |
+
 
 ## Tools Used
 - Python
