@@ -23,8 +23,6 @@ The HMDB_simp dataset used a 70/15/15 stratified split:
 - 188 test clips
 
 ## Models Compared
-Three pre-trained transformer video models were evaluated:
-
 | Model | Frames | Notes |
 |---|---:|---|
 | TimeSFormer | 8 | Divided space-time attention |
