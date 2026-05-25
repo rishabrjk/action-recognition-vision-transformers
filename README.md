@@ -142,11 +142,17 @@ This project demonstrates skills relevant to:
 - Spatio-temporal localisation
 
 ## Repository Structure
+## Repository Structure
+
 ```text
 action-recognition-vision-transformers/
 ├── notebooks/
+│   └── README.md
 ├── images/
 ├── reports/
+│   └── README.md
 ├── src/
+│   └── README.md
 ├── requirements.txt
 └── README.md
+```
